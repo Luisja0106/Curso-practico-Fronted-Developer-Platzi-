@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+         :root {
+        --very-light-pink: #c7c7c7 ;
+        --text-input-field: #f7f7f7;
+        --hospital-green: #ACD9B2; 
+        --white: #FFFFFF;
+        --black: #000000;
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 240px);
+        gap: 26px;
+        place-content: center;
+    }
+    .product-card {
+        width: 240px;
+    }
+    .product-card img {
+        width: 240px;
+        height: 240px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .product-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+    }
+    .product-info figure {
+        margin: 0%;
+    }
+    .product-info figure img {
+        width: 35px;
+        height: 35px;
+    }
+    .product-info div p:nth-child(1) {
+        font-weight: bold;
+        font-size: var(--md);
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+    .product-info div p:nth-child(2) {
+        font-size: var(--sm);
+        margin-top: 0%;
+        margin-bottom: 0;
+        color: var(--very-light-pink);
+    }
+    @media(max-width: 640px) {
+        .cards-container {
+            grid-template-columns: repeat(auto-fill, 140px);
+        }
+        .product-card { 
+            width: 140px;
+        }
+        .product-card img {
+            width: 140px;
+            height: 140px;
+        }
+    }
+
+    
+    </style>
+<body>
+    <section class="main-container">
+        <div class="cards-container">
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.7ofYvkBqFuhkkhe6p5UFwgAAAA?rs=1&pid=ImgDetMain" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$15.000</p>
+                    <p>Posters</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/R.5f585da651d24f3adef2156edf08b9e6?rik=ee1Ntjw348TsGw&pid=ImgRaw&r=0" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$1.500.000</p>
+                    <p>Electroacustic guitar</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.ubPYJUKCiUV_1ztLGXApugHaHa?rs=1&pid=ImgDetMain" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$25.000.000</p>
+                    <p>Laptop Gamer Asus</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://specifications-pro.com/wp-content/uploads/2021/08/Xiaomi-Black-Shark-5-Pro.jpg" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$5.000.000</p>
+                    <p>Gaming Phone Black Shark 4 Pro</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://sneakersquad.imgix.net/uploads/primary/blog/Air-Jordan-1-Retro-High-OG-University-Blue-foto-2.jpeg?auto=compress%2Cformat&dpr=5&fit=crop&h=683&ixlib=php-3.3.0&q=20&w=1076" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$2.000.000</p>
+                    <p>Air Jordan 1 Retro High OG University Blue</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://3.bp.blogspot.com/-e7NI7l7FPpE/Uo1OJ_sA6TI/AAAAAAAAFfM/sA1k0tQz8l0/s1600/wacom-cintiq-companion-3qtr.jpg" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$1.500.000</p>
+                    <p>Pen Table Wacom Intuous</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/R.18aa052430343f292ffaa821cc98c16a?rik=rwtQk07pj%2fueww&pid=ImgRaw&r=0" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$75.999.999</p>
+                    <p>Luxury masion in EE.UU</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.9Uvaied6CY0y5h6lYeKNLQHaE8?rs=1&pid=ImgDetMain" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$555.397.700</p>
+                    <p>Tesla Model S Plaid</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/R.ea4042ce06e9f8e33004e7448e2cd3e5?rik=ZvpwwGtLzgMuKQ&pid=ImgRaw&r=0" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$200.000</p>
+                    <p>Wireless Hearing Aids Nothing Ears 2</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://www.bikesmedia.in/uploads/image/reviews/2018/may/top-5-affordable-fuel-injected-bikes-yamaha-fz-25.jpg" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$15.000.000</p>
+                    <p>Moterbike Yamaha FZ25</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.FwtbiMvfpzuX5hiwfS8ZVwHaHa?rs=1&pid=ImgDetMain" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$584.848.500</p>
+                    <p>Rolex watch</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.Z_thLL8WHrAhg7teNxqUwwHaE8?rs=1&pid=ImgDetMain" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$5.000.000</p>
+                    <p>curved Smart tv Samsung 5" 4K UHD</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"" alt="">
+               <div class="product-info">
+                <div>
+                    <p>$120,00</p>
+                    <p>Bike</p>
+                </div>
+                <figure>
+                        <img src="./curso-frontend-developer-practico-main/curso-frontend-developer-practico-main/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+</body>
+</html>
